@@ -1,0 +1,39 @@
+
+.navbar {
+    background-color: #e89999;
+    color: #b6e1ab;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #f0e8e8;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar ul {
+      display: none;
+    }
+    
+    .navbar .hamburger {
+      display: block; 
+    }
+    
+    .navbar .hamburger ~ ul {
+      display: block;
+    }
+  }
+  
